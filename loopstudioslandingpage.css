@@ -113,7 +113,7 @@ body {
     right: 60px;
     max-width: 460px;
     padding-left: 150px;
-    margin-left: 300px;
+    /* margin-left: 300px; */
     padding-top: 50px;
 }
 
@@ -127,7 +127,7 @@ body {
     font-family: myfont;
     font-stretch: extra-expanded;
     color: slategray;
-    font-size: 16px;
+    font-size: 20px;
     bottom: 0;
 }
 
@@ -301,13 +301,16 @@ footer {
     .desktop-view {
         display: none;
     }
-    .fa-bars :hover {
+    .fa fa-bars :hover {
         color: black;
         cursor: pointer;
         transition: 0.5s;
     }
     .icon :after {
         transition: 0.5s;
+    }
+    .icon {
+        color: white;
     }
     .page-top {
         font-family: myfont;
